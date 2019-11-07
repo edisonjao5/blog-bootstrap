@@ -1,0 +1,90 @@
+.music-body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-img {
+    width: 37%;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+    text-align: right;
+    margin-top: 70px;
+}
+
+.img-social {
+    width: 40px;
+    height: 40px;
+}
+
+.img-social-spot {
+    width: 60px;
+    height: 40px;
+}
+
+.contenido {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.img-contenido {
+    float: right;
+    width: 55%;
+    margin: 10px;
+}
+
+.img-contenido-2 {
+    float: left;
+    width: 55%;
+    margin: 10px;
+}
+
+.glyphicon {
+    font-size: 50px;
+}
+
+.form-busqueda {
+    margin: 10px;
+}
+
+#titulo-blog {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.comment textarea {
+    display: inline-block;
+    vertical-align: middle;
+    width: 85%;
+}
+
+div.comment span {
+    font-size: 4em;
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+@media screen and (max-width: 767px) {
+    .logo-img {
+        width: 55%;
+    }
+
+    .redes-sociales {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .img-contenido, .img-contenido-2 {
+        width: 100%;
+    }
+
+    div.comment textarea {
+        margin-left: 5% !important;
+        width: 70%;
+    }
+}
+
+
